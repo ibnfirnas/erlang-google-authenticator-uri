@@ -1,0 +1,11 @@
+{application, google_authenticator_uri,
+ [
+  {description, "Google Authenticator URI constructor."},
+  {vsn, "0.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
